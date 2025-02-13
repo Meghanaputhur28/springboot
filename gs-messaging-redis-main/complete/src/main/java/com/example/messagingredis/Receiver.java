@@ -14,8 +14,7 @@ public class Receiver {
 		LOGGER.info("Received <" + message + ">");
 		counter.incrementAndGet();
 	}
-
 	public int getCount() {
-		return counter.get();
-	}
+		return counter.get(); 
+	} 
 }

@@ -12,7 +12,7 @@ public class SbaHelloworldApplication {
 
   public static void main(String[] args) {
     SpringApplication.run(SbaHelloworldApplication.class, args);
-  }
+  } 
 
   @Bean
   CommandLineRunner runner(PersonRepository repository) {
